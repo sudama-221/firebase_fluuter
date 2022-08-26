@@ -2,7 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'book_list_page.dart';
+// 状態管理
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'view/book_list_page.dart';
+
 import 'firebase_options.dart';
 
 void main() async {
@@ -12,7 +16,7 @@ void main() async {
   );
 
   runApp(
-    const MyApp(),
+    const ProviderScope(child: MyApp()),
   );
 }
 
