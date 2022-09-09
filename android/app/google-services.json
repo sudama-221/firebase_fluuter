@@ -29,6 +29,13 @@
             {
               "client_id": "455295087970-tlm59omqpevbimv4o9s46f1ln4g18vq4.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "455295087970-ci564d8l81np7c80supft1jmcnnsbm9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bookListProject"
+              }
             }
           ]
         }
